@@ -215,10 +215,11 @@
 </head>
 <body>
 <div id="wb_Text1" style="position:absolute;left:158px;top:38px;width:502px;height:74px;text-align:center;z-index:0;">
+
     <span style="color:#800080;font-family:微软雅黑;font-size:27px;">电影票抢购网</span><span style="color:#000000;font-family:微软雅黑;font-size:17px;"><br></span><span style="color:#000000;font-family:Calibri;font-size:17px;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span><span style="color:#483D8B;font-family:微软雅黑;font-size:17px;">爱，有时就是一张电影票的距离</span></div>
 <div id="wb_CssMenu1" style="position:absolute;left:78px;top:114px;width:420px;height:49px;z-index:1;">
     <ul>
-        <li class="firstmain"><a href="./index.jsp" target="_self">首页    Home</a>
+        <li class="firstmain"><a href="./index.jsp" target="_self">首页 Home</a>
         </li>
         <li><a href="./Hot.jsp" target="_self">正在热映 Hot...</a>
         </li>
@@ -226,19 +227,19 @@
         </li>
         <li><a href="./getMovieTicket.jsp" target="_self">购票 </a>
         </li>
-        <li><a href="./aboutUs.jsp" target="_self">关于我们 About Us</a>
+        <li><a href="./aboutUs.jsp" target="_self">关于我们About Us</a>
         </li>
     </ul>
     <br>
 </div>
-<input type="text" id="Editbox1" style="position:absolute;left:616px;top:119px;width:94px;height:19px;line-height:19px;z-index:2;" name="Editbox1" value="">
-<input type="text" id="Editbox2" style="position:absolute;left:760px;top:119px;width:94px;height:19px;line-height:19px;z-index:3;" name="Editbox1" value="">
+<input type="text" id="username" style="position:absolute;left:616px;top:119px;width:94px;height:19px;line-height:19px;z-index:2;" name="username" value="">
+<input type="text" id="password" style="position:absolute;left:760px;top:119px;width:94px;height:19px;line-height:19px;z-index:3;" name="password" value="">
 <input type="button" id="jQueryButton1" name="登陆" value="登陆" style="position:absolute;left:866px;top:117px;width:54px;height:25px;z-index:4;">
 <input type="button" id="jQueryButton3" name="注册" value="注册" style="position:absolute;left:931px;top:118px;width:54px;height:25px;z-index:5;">
 <div id="wb_Text2" style="position:absolute;left:569px;top:119px;width:43px;height:25px;z-index:6;text-align:left;">
-    <span style="color:#000000;font-family:微软雅黑;font-size:13px;">用户名</span></div>
+    <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">用户名</span></div>
 <div id="wb_Text3" style="position:absolute;left:728px;top:118px;width:43px;height:25px;z-index:7;text-align:left;">
-    <span style="color:#000000;font-family:微软雅黑;font-size:13px;">密码</span></div>
+    <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">密码</span></div>
 </body>
 </html>
 
