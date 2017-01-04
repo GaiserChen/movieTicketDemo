@@ -1,82 +1,245 @@
 <html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-    <title>中信电影网EciticMovic</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Untitled Page</title>
+    <meta name="generator" content="WYSIWYG Web Builder 9 - http://www.wysiwygwebbuilder.com">
+    <style type="text/css">
+        body
+        {
+            background-color: #FFFFFF;
+            color: #000000;
+            font-family: Arial;
+            font-size: 13px;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <link href="cupertino/jquery.ui.all.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        a
+        {
+            color: #0000FF;
+            text-decoration: underline;
+        }
+        a:visited
+        {
+            color: #800080;
+        }
+        a:active
+        {
+            color: #FF0000;
+        }
+        a:hover
+        {
+            color: #0000FF;
+            text-decoration: underline;
+        }
+    </style>
+    <style type="text/css">
+        #wb_Text1
+        {
+            background-color: transparent;
+            border: 0px #000000 solid;
+            padding: 0;
+            text-align: center;
+        }
+        #wb_Text1 div
+        {
+            text-align: center;
+        }
+        #wb_CssMenu1
+        {
+            border: 0px #C0C0C0 solid;
+            background-color: transparent;
+        }
+        #wb_CssMenu1 ul
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        #wb_CssMenu1 li
+        {
+            float: left;
+            margin: 0;
+            padding: 0px 4px 0px 0px;
+            width: 80px;
+        }
+        #wb_CssMenu1 a
+        {
+            display: block;
+            float: left;
+            color: #666666;
+            border: 1px #C0C0C0 solid;
+            background-color: #EEEEEE;
+            background-image: none;
+            font-family: Arial;
+            font-size: 13px;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none;
+            width: 68px;
+            height: 26px;
+            padding: 0px 5px 0px 5px;
+            vertical-align: middle;
+            line-height: 26px;
+            text-align: center;
+        }
+        #wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
+        {
+            color: #666666;
+            background-color: #C0C0C0;
+            background-image: none;
+            border: 1px #C0C0C0 solid;
+        }
+        #wb_CssMenu1 li.firstmain
+        {
+            padding-left: 0px;
+        }
+        #wb_CssMenu1 li.lastmain
+        {
+            padding-right: 0px;
+        }
+        #wb_CssMenu1 br
+        {
+            clear: both;
+            font-size: 1px;
+            height: 0;
+            line-height: 0px;
+        }
+        #Editbox1
+        {
+            border: 1px #A9A9A9 solid;
+            background-color: #FFFFFF;
+            color :#000000;
+            font-family: Arial;
+            font-size: 13px;
+            text-align: left;
+            vertical-align: middle;
+        }
+        #Editbox2
+        {
+            border: 1px #A9A9A9 solid;
+            background-color: #FFFFFF;
+            color :#000000;
+            font-family: Arial;
+            font-size: 13px;
+            text-align: left;
+            vertical-align: middle;
+        }
+        #jQueryButton1
+        {
+            font-family: Arial;
+            font-size: 13px;
+            font-weight: normal;
+            font-style: normal;
+        }
+        #jQueryButton1 .ui-button
+        {
+            position: absolute;
+        }
+        #jQueryButton1 .ui-button-text-icon .ui-button-icon-primary,
+        #jQueryButton1 .ui-button-text-icons .ui-button-icon-primary,
+        #jQueryButton1 .ui-button-icons-only .ui-button-icon-primary
+        {
+            left: auto;
+            right: 10px;
+        }
+        #jQueryButton1 .ui-button-text-icons .ui-button-icon-secondary,
+        #jQueryButton1 .ui-button-icons-only .ui-button-icon-secondary
+        {
+            right: auto;
+            left: 10px;
+        }
+        #jQueryButton3
+        {
+            font-family: Arial;
+            font-size: 13px;
+            font-weight: normal;
+            font-style: normal;
+        }
+        #jQueryButton3 .ui-button
+        {
+            position: absolute;
+        }
+        #jQueryButton3 .ui-button-text-icon .ui-button-icon-primary,
+        #jQueryButton3 .ui-button-text-icons .ui-button-icon-primary,
+        #jQueryButton3 .ui-button-icons-only .ui-button-icon-primary
+        {
+            left: auto;
+            right: 10px;
+        }
+        #jQueryButton3 .ui-button-text-icons .ui-button-icon-secondary,
+        #jQueryButton3 .ui-button-icons-only .ui-button-icon-secondary
+        {
+            right: auto;
+            left: 10px;
+        }
+        #wb_Text2
+        {
+            background-color: transparent;
+            border: 0px #000000 solid;
+            padding: 0;
+            text-align: left;
+        }
+        #wb_Text2 div
+        {
+            text-align: left;
+        }
+        #wb_Text3
+        {
+            background-color: transparent;
+            border: 0px #000000 solid;
+            padding: 0;
+            text-align: left;
+        }
+        #wb_Text3 div
+        {
+            text-align: left;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="jquery.ui.core.min.js"></script>
+    <script type="text/javascript" src="jquery.ui.widget.min.js"></script>
+    <script type="text/javascript" src="jquery.ui.button.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+            $("#jQueryButton1").button();
+            $("#jQueryButton3").button();
+        });
+    </script>
 </head>
 <body>
-
-<div class="container">
-    <div class="jumbotron">
-        <h2>中信电影网EciticMovice</h2>
-        <p>爱，有时就是一张电影票的距离</p>
-    </div>
-    <div class="row">
-        <div class="col-sm-4">
-            <h3>正在热映 Hot</h3>
-            <div class="container">
-                <h2>表格</h2>
-                <p>创建响应式表格 (将在小于768px的小型设备下水平滚动)。另外：添加交替单元格的背景色：</p>
-                <div class="table-responsive">
-                    <table class="table table-striped table-bordered">
-                        <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Name</th>
-                            <th>Street</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Anna Awesome</td>
-                            <td>Broome Street</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Debbie Dallas</td>
-                            <td>Houston Street</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>John Doe</td>
-                            <td>Madison Street</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <h2>图像</h2>
-                <p>创建相应式图片(将扩展到父元素)。 另外：图片以椭圆型展示：</p>
-                <img src="cinqueterre.jpg" class="img-responsive img-circle" alt="Cinque Terre" width="304" height="236">
-
-                <h2>图标</h2>
-                <p>插入图标:</p>
-                <p>云图标: <span class="glyphicon glyphicon-cloud"></span></p>
-                <p>信件图标: <span class="glyphicon glyphicon-envelope"></span></p>
-                <p>搜索图标: <span class="glyphicon glyphicon-search"></span></p>
-                <p>打印图标: <span class="glyphicon glyphicon-print"></span></p>
-                <p>下载图标：<span class="glyphicon glyphicon-download"></span></p>
-            </div>
-
-            <!-- JavaScript 放置在文档最后面可以使页面加载速度更快 -->
-            <!-- 可选: 包含 jQuery 库 -->
-            <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-            <!-- 可选: 合并了 Bootstrap JavaScript 插件 -->
-            <script src="https://apps.bdimg.com/libs/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-        </div>
-
-        <div class="col-sm-4">
-            <h3>即将上映 soon...</h3>
-            <p>学！</p>
-            <p>再！</p>
-        </div>
-    </div>
+<div id="wb_Text1" style="position:absolute;left:158px;top:38px;width:502px;height:74px;text-align:center;z-index:0;">
+    <span style="color:#800080;font-family:微软雅黑;font-size:27px;">电影票抢购网</span><span style="color:#000000;font-family:微软雅黑;font-size:17px;"><br></span><span style="color:#000000;font-family:Calibri;font-size:17px;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span><span style="color:#483D8B;font-family:微软雅黑;font-size:17px;">爱，有时就是一张电影票的距离</span></div>
+<div id="wb_CssMenu1" style="position:absolute;left:78px;top:114px;width:420px;height:49px;z-index:1;">
+    <ul>
+        <li class="firstmain"><a href="./index.jsp" target="_self">首页    Home</a>
+        </li>
+        <li><a href="./Hot.jsp" target="_self">正在热映 Hot...</a>
+        </li>
+        <li><a href="./Login.jsp" target="_self">即将上映 Soon...</a>
+        </li>
+        <li><a href="./getMovieTicket.jsp" target="_self">购票 </a>
+        </li>
+        <li><a href="./aboutUs.jsp" target="_self">关于我们 About Us</a>
+        </li>
+    </ul>
+    <br>
 </div>
-<h2>Hello World!</h2>
+<input type="text" id="Editbox1" style="position:absolute;left:616px;top:119px;width:94px;height:19px;line-height:19px;z-index:2;" name="Editbox1" value="">
+<input type="text" id="Editbox2" style="position:absolute;left:760px;top:119px;width:94px;height:19px;line-height:19px;z-index:3;" name="Editbox1" value="">
+<input type="button" id="jQueryButton1" name="登陆" value="登陆" style="position:absolute;left:866px;top:117px;width:54px;height:25px;z-index:4;">
+<input type="button" id="jQueryButton3" name="注册" value="注册" style="position:absolute;left:931px;top:118px;width:54px;height:25px;z-index:5;">
+<div id="wb_Text2" style="position:absolute;left:569px;top:119px;width:43px;height:25px;z-index:6;text-align:left;">
+    <span style="color:#000000;font-family:微软雅黑;font-size:13px;">用户名</span></div>
+<div id="wb_Text3" style="position:absolute;left:728px;top:118px;width:43px;height:25px;z-index:7;text-align:left;">
+    <span style="color:#000000;font-family:微软雅黑;font-size:13px;">密码</span></div>
 </body>
+</html>
+
 </html>
